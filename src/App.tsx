@@ -159,7 +159,10 @@ function App() {
               if (e.code == "Enter") {
                 handleAdd()
               }
-            }} fontSize={"1.7rem"} focusRingColor={"cyan.800"}></Input>
+              
+            }} 
+            width={"60vw"}
+            fontSize={"1.7rem"} focusRingColor={"cyan.800"}></Input>
           <Button onClick={handleAdd}>
             <Icon><FaPlus></FaPlus></Icon>
           </Button>
