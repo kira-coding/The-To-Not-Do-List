@@ -1,0 +1,27 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "store:allow-load",
+    "store:allow-save",
+    "store:allow-delete",
+    "store:allow-get",
+    "store:allow-set",
+    "store:allow-reset",
+    "store:allow-values",
+    "store:allow-get-store",
+    "store:allow-entries",
+    "store:allow-reload",
+    "store:allow-clear",
+    "store:allow-keys",
+    "store:allow-has",
+    "store:allow-length"
+    
+  ]
+}
